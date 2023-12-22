@@ -5,7 +5,13 @@
 public class Coins {
 	public static void main(String[] args) {
 		// Put your code here
-		// omer test 
+		int x = Integer.parseInt(args[0]);
+		int m = x%4;
+		int y = x/4;
+		System.out.println(y + " - " + m);
+		
+
+		
 		
 	}
 }
