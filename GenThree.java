@@ -21,7 +21,7 @@ public class GenThree {
 		else
 			if(b<c)
 				min = b ;
-		System.out.println((int)min);	
+		System.out.println("The minimal generated number was "+ (int)min);	
 		
 
 		
