@@ -7,20 +7,10 @@ public class Triangle {
 	public static void main(String[] args)
 	{
 		// Put your code here	 
-		boolean test = true;
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
-		int x, y , z;
-		x = a+b;
-		y = a+c;
-		z = b +c;
-		if ( x< a || x<b ||x<c)
-			test = false;
-		if ( y< a || y<b ||y<c)
-			test = false;
-		if ( z< a || z<b ||z<c)
-			test = false;
+		boolean test = (a+b < c && a+c < b && b+c<a);
 		System.out.println(a + ", " + b + ", " + c + ": " + test);
 	}
 }
