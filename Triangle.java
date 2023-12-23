@@ -21,6 +21,6 @@ public class Triangle {
 			test = false;
 		if ( z< a || z<b ||z<c)
 			test = false;
-		System.out.println(x + ", " + y + ", " + z + ": " + test);
+		System.out.println(a + ", " + b + ", " + c + ": " + test);
 	}
 }
