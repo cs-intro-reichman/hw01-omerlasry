@@ -7,8 +7,8 @@ public class GenThree {
 	
 	{
 		// Put your code here
-		double x = Integer.parseInt(args[0]);
-		double y = Integer.parseInt(args[1]);
+		int x = Integer.parseInt(args[0]);
+		int y = Integer.parseInt(args[1]);
 		double a,b,c;
 		double min ;
 		a = (Math.random()*(y-x) + x);
