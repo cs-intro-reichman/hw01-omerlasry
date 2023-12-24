@@ -15,8 +15,10 @@ public class GenThree {
 		b = (Math.random()*(y-x) + x);
 		c = (Math.random()*(y-x) + x);
 		min = c;
-		System.out.println((int)a + " " +(int)b + " "+ (int)c);
-		if (a<b)
+		System.out.println((int)a);
+		System.out.println((int)b);
+		System.out.println((int)c);
+		if (a<b&&a<c)
 			min = a;
 		else
 			if(b<c)
